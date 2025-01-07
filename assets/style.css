@@ -1,0 +1,142 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #fdf5f0;
+    color: #333;
+}
+
+header nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 1rem;
+    background: #f4cbc6;
+}
+
+header nav ul li {
+    margin: 0 1rem;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+header nav ul li a:hover {
+    color: #000;
+}
+
+/* About Section */
+#about {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    background: #fce4e0;
+}
+
+.about-card {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    max-width: 800px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    padding: 1rem;
+}
+
+.about-info {
+    flex: 1;
+    padding: 1rem;
+    text-align: left;
+}
+
+.about-info h1 {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 0.5rem;
+}
+
+.about-info h2 {
+    font-size: 1.5rem;
+    color: #555;
+    margin-bottom: 1rem;
+}
+
+.about-info p {
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #666;
+    margin-bottom: 1rem;
+}
+
+.links a {
+    text-decoration: none; /* Removes underline for links */
+    margin-right: 1rem;    /* Adds spacing between icons */
+    color: #333;           /* Default icon color */
+    transition: color 0.3s ease; /* Smooth hover effect */
+}
+
+.links a:hover {
+    color: #007BFF; /* Changes icon color on hover */
+}
+
+.links i {
+    font-size: 2rem;  /* Adjusts the size of Font Awesome icons */
+    vertical-align: middle; /* Aligns icons with surrounding elements */
+}
+
+.about-image {
+    flex: 1;
+    text-align: center;
+    padding: 1rem;
+}
+
+.about-image img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 4px solid #f4cbc6;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 1rem;
+    background: #f4cbc6;
+    color: #333;
+    font-size: 0.9rem;
+}
+
+/* Mobile-Friendly Layout */
+@media (max-width: 768px) {
+    #about {
+        flex-direction: column;
+        padding: 1rem;
+    }
+
+    .about-card {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .about-info {
+        padding: 0.5rem;
+    }
+
+    .about-image img {
+        width: 120px;
+        height: 120px;
+    }
+
+    .links i {
+        font-size: 1.5rem; /* Reduce icon size on smaller screens */
+    }
+}
+

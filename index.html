@@ -1,32 +1,56 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Gal Cohensius's Personal Website">
     <title>Gal Cohensius</title>
     <link rel="icon" href="assets/favicon.ico" type="image/x-icon">
-    <link rel="apple-touch-icon" sizes="180x180" href="assets/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon-16x16.png">
-    <link rel="manifest" href="site.webmanifest">
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            text-align: center;
-            background-color: #f5f5f5;
-            color: #333;
-        }
-        h1 {
-            margin-top: 20%;
-            font-size: 2.5rem;
-        }
-    </style>
+    <link rel="stylesheet" href="assets/style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
 </head>
+
 <body>
-<h1>Hello, World!</h1>
-<p>Welcome to my personal website. More to come soon!</p>
+<header>
+    <nav>
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+
+<main>
+    <section id="about">
+        <div class="about-card">
+            <div class="about-info">
+                <h1>Gal Cohensius</h1>
+                <h2>Java Developer & Game Algorithm Specialist</h2>
+                <p>Hi, I’m Gal, a developer specializing in game algorithms, with a passion for card and board games.</p>
+                <div class="links">
+                    <a href="https://www.linkedin.com/in/gal-cohensius-168332102/" target="_blank" aria-label="LinkedIn">
+                        <i class="fab fa-linkedin fa-2x"></i>
+                    </a>
+                    <a href="https://boardgames.stackexchange.com/users/23542/cohensius" target="_blank" aria-label="Board Games Stack Exchange">
+                        <i class="fab fa-stack-exchange fa-2x"></i>
+                    </a>
+                    <a href="https://github.com/galcohensius" target="_blank" aria-label="GitHub">
+                        <i class="fab fa-github fa-2x"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="about-image">
+                <img src="assets/galpic.jpg" alt="Gal Cohensius">
+            </div>
+        </div>
+    </section>
+</main>
+
+<footer>
+    <p>&copy; 2025 Gal Cohensius.</p>
+</footer>
+
 </body>
+
 </html>
