@@ -3,7 +3,7 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background: #fdf5f0;
+    background: #f4f4f9; /* Light gray-blue for a clean, modern look */
     color: #333;
 }
 
@@ -12,7 +12,7 @@ header nav ul {
     justify-content: center;
     list-style: none;
     padding: 1rem;
-    background: #f4cbc6;
+    background: #003366; /* Dark navy blue for a professional header */
 }
 
 header nav ul li {
@@ -21,12 +21,12 @@ header nav ul li {
 
 header nav ul li a {
     text-decoration: none;
-    color: #333;
+    color: #f4f4f9; /* Light text to contrast against navy */
     font-weight: bold;
 }
 
 header nav ul li a:hover {
-    color: #000;
+    color: #1e90ff; /* Bright blue hover effect */
 }
 
 /* About Section */
@@ -35,7 +35,7 @@ header nav ul li a:hover {
     justify-content: center;
     align-items: center;
     padding: 2rem;
-    background: #fce4e0;
+    background: #e6eefc; /* Light blue background for a calming effect */
 }
 
 .about-card {
@@ -43,7 +43,7 @@ header nav ul li a:hover {
     flex-wrap: wrap;
     align-items: center;
     max-width: 800px;
-    background: #fff;
+    background: #ffffff; /* White card background */
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     overflow: hidden;
@@ -58,37 +58,37 @@ header nav ul li a:hover {
 
 .about-info h1 {
     font-size: 2rem;
-    color: #333;
+    color: #003366; /* Navy blue for headings */
     margin-bottom: 0.5rem;
 }
 
 .about-info h2 {
     font-size: 1.5rem;
-    color: #555;
+    color: #1e90ff; /* Bright blue for subheadings */
     margin-bottom: 1rem;
 }
 
 .about-info p {
     font-size: 1rem;
     line-height: 1.5;
-    color: #666;
+    color: #555; /* Neutral text color for readability */
     margin-bottom: 1rem;
 }
 
 .links a {
-    text-decoration: none; /* Removes underline for links */
-    margin-right: 1rem;    /* Adds spacing between icons */
-    color: #333;           /* Default icon color */
-    transition: color 0.3s ease; /* Smooth hover effect */
+    text-decoration: none;
+    margin-right: 1rem;
+    color: #003366; /* Navy default icon color */
+    transition: color 0.3s ease;
 }
 
 .links a:hover {
-    color: #007BFF; /* Changes icon color on hover */
+    color: #1e90ff; /* Bright blue on hover */
 }
 
 .links i {
-    font-size: 2rem;  /* Adjusts the size of Font Awesome icons */
-    vertical-align: middle; /* Aligns icons with surrounding elements */
+    font-size: 2rem;
+    vertical-align: middle;
 }
 
 .about-image {
@@ -102,15 +102,15 @@ header nav ul li a:hover {
     height: 150px;
     border-radius: 50%;
     object-fit: cover;
-    border: 4px solid #f4cbc6;
+    border: 4px solid #1e90ff; /* Bright blue border for a standout look */
 }
 
 /* Footer */
 footer {
     text-align: center;
     padding: 1rem;
-    background: #f4cbc6;
-    color: #333;
+    background: #003366; /* Matches the header color */
+    color: #f4f4f9;
     font-size: 0.9rem;
 }
 
@@ -136,7 +136,6 @@ footer {
     }
 
     .links i {
-        font-size: 1.5rem; /* Reduce icon size on smaller screens */
+        font-size: 1.5rem;
     }
 }
-
