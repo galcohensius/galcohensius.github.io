@@ -99,7 +99,7 @@ header nav ul li a:hover {
 
 .about-info p {
     font-size: 1rem;
-    line-height: 1.5;
+    line-height: 1.6; /* Adjusts the space between lines */
     color: #555; /* Neutral text color for readability */
     margin-bottom: 1rem;
 }
