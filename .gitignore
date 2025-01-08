@@ -1,0 +1,42 @@
+# IntelliJ IDEA-specific files and folders
+.idea/
+*.iml
+*.iws
+/out/
+*.log
+
+# Git-specific files
+*.orig
+*.rej
+
+# Node.js (if you ever use Node.js for additional features)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# macOS-specific files
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows-specific files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# System files
+*.swp
+*.swo
+*.bak
+*.tmp
+*.temp
+*.~lock.*
+
+# Deployment files (optional, based on your setup)
+dist/
+build/
+
+# Exclude your personal IDE settings while keeping necessary project files
+/shelf/
+/.idea/workspace.xml
