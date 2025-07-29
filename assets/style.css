@@ -1,6 +1,7 @@
 /* General Styles */
 ul {
-    list-style: none; /* Remove default list styles */
+    list-style: disc;
+    margin-left: 1.5em;
     margin: 0;
     padding: 0;
 }
@@ -8,6 +9,33 @@ ul {
 li {
     margin: 0;
     padding: 0;
+}
+
+.custom-bullets {
+    margin-left: 1.5em;
+    padding-left: 0;
+}
+
+.custom-bullets li {
+    list-style: none;
+    position: relative;
+    padding-left: 1.3em;
+}
+
+/* Spade bullet */
+.custom-bullets .spade-bullet::before {
+    content: '♠';
+    position: absolute;
+    left: 0;
+    color: black;
+}
+
+/* Heart bullet */
+.custom-bullets .heart-bullet::before {
+    content: '♥';
+    position: absolute;
+    left: 0;
+    color: crimson; /* You can also use red or any other color */
 }
 
 body {
