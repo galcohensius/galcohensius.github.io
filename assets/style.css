@@ -1,7 +1,7 @@
 /* General Styles */
 ul {
     list-style: disc;
-    margin-left: 1.5em;
+    margin-left: 0;
     margin: 0;
     padding: 0;
 }
@@ -12,14 +12,16 @@ li {
 }
 
 .custom-bullets {
-    margin-left: 1.5em;
+    margin-left: 0;
     padding-left: 0;
+    margin-bottom: 1.5em;     /* Add space below the list */
 }
 
 .custom-bullets li {
     list-style: none;
     position: relative;
-    padding-left: 1.3em;
+    padding-left: 1.2em;
+    margin-bottom: 0.3em;     /* Optional: space between lines */
 }
 
 /* Spade bullet */
